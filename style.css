@@ -86,7 +86,8 @@ input{
   box-shadow: 5px 2px 34px 0px lightgrey;
   border-radius: 9px;
   outline: none;
-  color: royalblue;
+  color: rgb(219, 219, 219);
+  font-family: 'Nunito Sans';
 }
 
 ::placeholder{
@@ -124,7 +125,7 @@ input{
 .newzealand-box,
 .austrailla-box {
   background-color: white;
-  box-shadow: 11px 11px 44px -5px lightgrey;
+  box-shadow: 9px 9px 40px -5px lightgrey;
   border-radius: 9px;
 }
 
@@ -217,6 +218,23 @@ p {
 
    .heading1{
      margin-left: 1px;
+   }
+
+   .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+   }
+
+   input{
+     margin-right: 0;
+     margin-left: 0;
+   }
+
+   #cars{
+    margin-right: 0;
+    top: 37px;
    }
 }
 
