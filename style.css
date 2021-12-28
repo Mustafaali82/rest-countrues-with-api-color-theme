@@ -71,6 +71,49 @@ img {
   display: table;
 }
 
+input{
+  border: 1px solid white;
+  margin-right: auto;
+  margin-left: 44px;
+  position: relative;
+  top: 25px;
+  width: 376px;
+  height: 47px;
+  padding-left: 56px;
+  font-size: 16px;
+  background-color: white;
+  box-shadow: 5px 2px 34px 0px lightgrey;
+  border-radius: 9px;
+  outline: none;
+  color: royalblue;
+}
+
+::placeholder{
+  color: lightgray;
+}
+
+.input{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#cars{
+  margin-right: 48px;
+  position: relative;
+  top: 25px;
+  width: 174px;
+  height: 47px;
+  background-color: white;
+  box-shadow: 5px 2px 34px 0px lightgrey;
+  border-radius: 3px;
+  border: 1px solid white;
+  padding-left: 15px;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Nunito Sans';
+}
+
 .germany-box,
 .pakistan-box,
 .afganistan-box,
