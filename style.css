@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  padding-bottom: 30px;
+}
+
+header {
+  color: rgb(255, 255, 255);
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.37);
+}
+
+body {
+  background-color: #fafafa;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 22px;
+}
+
+span {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.heading1 {
+  margin-right: auto;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+.dark-mode {
+  background-color: hsl(207, 26%, 17%);
+}
+
+img {
+  width: 250px;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.pakistan-flag {
+  width: 250px;
+  height: 168px;
+}
+
+.germany-flag {
+  width: 250px;
+  height: 168px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 50px;
+}
+
+.afganistan-box {
+  display: table;
+}
+
+.germany-box,
+.pakistan-box,
+.afganistan-box,
+.england-box,
+.india-box,
+.southafrica-box,
+.newzealand-box,
+.austrailla-box {
+  background-color: white;
+  box-shadow: 11px 11px 44px -5px lightgrey;
+  border-radius: 9px;
+}
+
+.austrailla-box img {
+  height: 167px;
+}
+
+.newzealand-box img {
+  height: 167px;
+}
+
+.southafrica-box img {
+  height: 167px;
+}
+
+.india-box,
+.southafrica-box,
+.newzealand-box,
+.austrailla-box {
+  margin-top: 50px;
+}
+
+.india-box img,
+.southafrica-box img,
+.newzealand-box img,
+.austrailla-box img {
+  margin-top: -50px;
+}
+
+#england > div:nth-child(2) {
+  display: none;
+}
+
+#austrailla > div:nth-child(2) {
+  display: none;
+}
+
+#newzealand > div:nth-child(2) {
+  display: none;
+}
+
+#south > div:nth-child(2) {
+  display: none;
+}
+
+#afganistan > div:nth-child(2) {
+  display: none;
+}
+
+#pakistan > div:nth-child(2) {
+  display: none;
+}
+
+#germany > div:nth-child(2) {
+  display: none;
+}
+
+#india > div:nth-child(2) {
+  display: none;
+}
+
+.title {
+  font-family: "Nunito Sans", sans-serif;
+  padding: 13px;
+  margin-left: 12px;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-left: 26px;
+  line-height: 12px;
+  padding-bottom: 13px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .main{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+   }
+
+   .india-box, .southafrica-box, .newzealand-box, .austrailla-box{
+     margin-top: 25px;
+   }
+
+   .heading1{
+     margin-left: 1px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+  .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+   }
+
+   .india-box, .southafrica-box, .newzealand-box, .austrailla-box{
+    margin-top: 25px;
+  }
+
+  .heading1{
+    margin-left: 1px;
+  }
+}
+
+
+@media screen and (min-width: 944px) {
+  .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+   }
+
+   .india-box, .southafrica-box, .newzealand-box, .austrailla-box{
+    margin-top: 25px;
+  }
+
+  .heading1{
+    margin-left: 1px;
+  }
+}
